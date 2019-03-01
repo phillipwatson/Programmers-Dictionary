@@ -1,0 +1,13 @@
+h1 {
+	text-align: center;
+	margin-top: 15%;
+	font-size: 72pt;
+}
+
+.searchbar input[type=text] {
+  border: none;
+  font-size: 30px;
+  display: block;
+  margin-left: 35%;
+  text-align: center;
+}
