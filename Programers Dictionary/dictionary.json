@@ -1,0 +1,176 @@
+[
+    {
+      "word": "computer",
+      "definition": "an electronic device capable of performing instructions to process digital data. The language of a computer is electronic signals represented using machine language."
+    },
+
+    {
+      "word": "data",
+      "definition": "(syn. information) thoughts or representations of nature and society. Examples include numbers, text, images, and videos (e.g. 5 dining room tables; 1000 lions; my brother and sister)"
+    },
+
+    {
+      "word": "data_operations",
+      "definition": "actions that can be performed on data. Examples include addition, subtraction, randomize, delete, store, send, etc."
+    },
+    {
+      "word": "computer language",
+      "definition": "a collection of symbols organized by a collection of rules called a grammar used by computers to represent and communicate information."
+    },
+    {
+      "word": "machine language",
+      "definition": "a computer language whose symbols are 0s and 1s (0s are low voltage and 1s are high voltage). Machine language provides computer instructions in the form of bits."
+    },
+    {
+      "word": "binary",
+      "definition": "a number language (or number system) whose symbols are 0 and 1"
+    },
+    {
+      "word": "bit",
+      "definition": "a binary digit; either 0 or 1"
+    },
+    {
+      "word": "byte",
+      "definition": "a collection of eight bits"
+    },
+    {
+      "word": "ASCII",
+      "definition": "(American Standard Code for Information Interchange) a data collection containing 128 characters numbered 0 through 127 where each character has a corresponding binary number."
+    },
+    {
+      "word": "high-level machine language",
+      "definition": "(also called a programming language) a computer language whose symbols resemble English symbols in order to make a programmer's job easier."
+    },
+    {
+      "word":  "compiler",
+      "definition": "a program that translates instructions written in a high-level language into machine language."
+    },
+    {
+      "word":  "algorithm",
+      "definition": "a step-by-step problem-solving plan used to arrive at a solution in a finite (or limited) amount of time. The steps to solving a problem include defining the problem, the solution goals, the algorithm (or plan) to achieve the solution goals, writing the plan in a programming language to make it into software, checking the software to make sure it works, and updating the software when the problem changes."
+    },
+    {
+      "word": "Object-Oriented Design",
+      "definition": "a strategy used to define a problem by identifying parts called objects (data) and figuring out the relationships (operations) between the objects."
+    },
+    {
+      "word": "basic computer commands" ,
+      "definition": "input (get data), output (display result), storage (store data), calculate (process data w/math and logic)"
+    },
+    {
+      "word": "CPU" ,
+      "definition": "(central processing unit) the brain of the computer and the most valuable piece of hardware in a computer; the more powerful the CPU, the faster the computer. The main parts of the CPU are the control unit (CU), the arithmetic logic unit (ALU), and registers"
+    },
+    {
+      "word": "CU" ,
+      "definition": "(control unit) a main part of a CPU that fetches and decodes instructions, controls the flow of instructions and data in and out of main memory, and controls the operation of the CPU's internal parts."
+    },
+    {
+      "word": "ALU" ,
+      "definition": "(arithmetic logic unit) a main part of a CPU that executes all math and logic operations"
+    },
+    {
+      "word": "registers",
+      "definition": "a main part of a CPU that temporarily stores instructions and data needed by the CPU"
+    },
+    {
+      "word": "main memory" ,
+      "definition": "a short-term memory component in a computer used to store programs and data that will be executed or manipulated by the CPU. When the computer is turned off, everything in main memory is deleted. Main memory is a list of memory cells. Each memory cell has a unique address and contains instructions and data. Most computers have millions to billions of cells."
+    },
+    {
+      "word": "secondary storage" ,
+      "definition": "a long-term memory component in a computer used to store programs and data permanently so it is not deleted when the computer is turned off. Examples include flash drives, CDs, DVDs"
+    },
+    {
+      "word": "input devices",
+      "definition": "electronic devices that feed programs and data into computers. Examples include the keyboard, mouse, secondary storage, and touchscreens"
+    },
+    {
+      "word": "output devices",
+      "definition": "electronic devices that are used by computers to display data and the results of programs. Examples include screens, printers, and secondary storage"
+    },
+    {
+      "word": "software",
+      "definition": "(also called programs or code or applications (apps)) a collection of instructions written for the computer to perform specific tasks. There are two types of software: system software and app software"
+    },
+    {
+      "word": "system software",
+      "definition": "a collection of instructions used to control a computer"
+    },
+    {
+      "word": "operating system",
+      "definition": "system software used to monitor the overall activity of a computer and provides services. Some of these services include memory management and input/output management. The OS is the first software loaded when a computer is turned on. Without an OS, a computer is useless."
+    },
+    {
+      "word": "app software",
+      "definition": "a collection of instructions used to perform a specific task. An OS is the software that runs app software."
+    },
+    {
+      "word": "computer network",
+      "definition": "a collection of computers that communicated through networking devices such as cords and wifi"
+    },
+    {
+      "word": "Internet",
+      "definition": "a worldwide collection of computer networks sharing data via a common set of networking and software rules"
+    },
+    {
+      "word": "HTML",
+      "definition": "(Hypertext Markup Language) a document-layout and hyperlink computer language used to unify and organize collections of pictures, videos, sounds, and text into a computer document that can link to other computer documents"
+    },
+    {
+      "word": "document",
+      "definition": "a written or drawn form of data"
+    },
+    {
+      "word": "Hyperlink",
+      "definition": "a link to a computer documents"
+    },
+    {
+      "word": "URL",
+      "definition": "(unified resource locator) a unique address where a computer document is stored"
+    },
+    {
+      "word": "browser",
+      "definition": "a computer program (software) used on client computers to retrieve and display computer documents"
+    },
+    {
+      "word": "client computer",
+      "definition": "a computer that retrieves and displays computer documents from the Internet"
+    },
+    {
+      "word": "server computer",
+      "definition": "a computer that serves up or publishes computer documents onto the Internet"
+    },
+    {
+      "word": "variables",
+      "definition": "data locations whose contents can be changed"
+    },
+    {
+      "word": "constants",
+      "definition": "data locations whose contents cannot be changed"
+    },
+    {
+      "word": "statement",
+      "definition": "(sentence; command) an computer instruction"
+    },
+    {
+      "word": "assignment statements",
+      "definition": "an computer instruction used to store data into a variable or constant"
+    },
+    {
+      "word": "control structures",
+      "definition": "computer instructions used by a computer to make decisions. Examples include selection and repetition."
+    },
+    {
+      "word": "selection statements",
+      "definition": "computer instructions used by the computer to decide whether or not to execute a collection of statements. Selection statements use tests to make decisions."
+    },
+    {
+      "word": "repetition statements",
+      "definition": "computer instructions used by the computer to repeatedly execute a collection of statements until it decides to stop. Repetition statements also use tests to make decisions."
+    },
+    {
+      "word": "function",
+      "definition": "(mini-program; method; subprogram; module) a separate collection of instructions that accomplishes a goal. Functions can be put together to form large programs. We can build our programs with our own functions or we can use functions written by other people. There are software libraries we can browse to find useful functions."
+    }
+]
