@@ -1,16 +1,29 @@
 // build Dictionary
+// array of javascript objects
+var dictionary = [
+  {
+    word: "computer",
+    definition: "an electronic device capable of performing instructions to process digital data. The language of a computer is electronic signals represented using machine language."
+  },
 
-var dictionary = {
+  {
+    word: "data",
+    definition: "(syn. information) thoughts or representations of nature and society. Examples include numbers, text, images, and videos (e.g. 5 dining room tables; 1000 lions; my brother and sister)"
+  },
 
-  computer: ["computer", "an electronic device capable of performing instructions to process data. The language of a computer is electronic signals represented using machine language."],
+  {
+    word: "data_operations",
+    definition: "actions that can be performed on data. Examples include addition, subtraction, randomize, delete, store, send, etc."
+  }
+];
 
-  data: ["data", "(syn. information) thoughts or representations of nature and society. Examples include numbers, text, images, and videos (e.g. 5 dining room tables; 1000 lions; my brother and sister)"],
 
-  data_operations: ["data operations", "actions that can be performed on data. Examples include addition, subtraction, randomize, delete, store, send, etc."]
-};
 
 // alert("Computer\n" + dictionary.computer);
-//console.log(dictionary[1]);
+// console.log(dictionary[0]);
+// console.log(dictionary[1]);
+// console.log(dictionary[2]);
+//console.log(dictionary.length);
 
 // ask user for word
 var input = prompt("Please enter a word: ");
@@ -18,7 +31,8 @@ console.log(input);
 
 
 // loop through all elements in dictionary
-for (var x in dictionary)
+
+for (var i=0; i < dictionary.length; i++)
 {
 
   //console.log(dictionary[x][0]);
@@ -27,16 +41,13 @@ for (var x in dictionary)
 
   // check to see if word is in Dictionary
   var found = false;
-  if (input == dictionary[x][0])
+  if (input == dictionary[i].word)
   {
     found = true;
     console.log(input + " is in the dictionary.");
-    console.log("Definition of " + input + ": " + dictionary[x][1]);
-    alert(input + "\n\n" + dictionary[x][1])
+    console.log("Definition of " + input + ": " + dictionary[i].definition);
+    alert(input + "\n\n" + dictionary[i].definition)
     break;
-  }
-  else {
-    console.log(input + " is not in the dictionary.");
   }
 }
 
